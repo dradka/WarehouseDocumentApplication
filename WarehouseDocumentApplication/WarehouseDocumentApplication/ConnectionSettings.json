@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "WarehouseDocumentsDatabase": "Data Source=(localdb)\\MSSQLLocalDB;Database=WarehouseDocumentsDatabase;Integrated Security=True;"
+  }
+}
