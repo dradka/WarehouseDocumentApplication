@@ -39,8 +39,8 @@ namespace WarehouseDocumentApplication.GithubInformation
             catch(Exception)
             {
                 MessageBoxUtils.ShowErrorMessage("Wystąpił błąd podczas odczytywania informacji o repozytorium");
+                GithubInformationItem = new GithubInformation();
             }
-            GithubInformationItem = new GithubInformation();
         }
     }
 }
